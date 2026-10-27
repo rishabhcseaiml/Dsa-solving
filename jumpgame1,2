@@ -1,0 +1,24 @@
+// func(arr){
+//     int maxind =0; 
+//     for(int i =0; i<n; i++){
+//         if(i>maxind) return false;
+//         max ind = max(max ind , 1+arr[i])
+//     }
+//     return true;
+// }
+// tc o(n) sc(1)
+
+// jump game 2
+// func(arr){
+//     int jump =0; int l, r =0;
+//     while(r<n-1;){
+//     farthest =0;
+//     for(int ind = l; ind= l-r; ind++){
+// farthest = max(i+arr(ind), farthest);
+// l= r+1; r+farthest;
+// jump++;
+//     }
+//     }
+//     retuen jjumps;
+// }
+// tc o(m) sco(1)
